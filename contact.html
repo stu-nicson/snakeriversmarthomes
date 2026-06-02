@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Snake River Smart Homes to request a free smart home consultation in Idaho Falls, Rexburg, or Southeast Idaho.">
+  <title>Contact Us | Snake River Smart Homes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Snake River Smart Homes home"><img src="assets/logo-horizontal.png" alt="Snake River Smart Homes logo"></a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle><span></span><span></span><span></span></button>
+      <div class="nav-menu" id="primary-nav" data-nav-menu>
+        <a href="index.html">Home</a>
+        <a href="packages.html">What We Do</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-small" href="contact.html">Request a Free Consultation</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow reveal">
+        <p class="eyebrow">Free consultation</p>
+        <h1>Tell us what you want your home to do.</h1>
+        <p>Reach out to Nicson White for a practical, no-pressure conversation about smart security, lighting, cameras, locks, automation, or support.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <form class="contact-form reveal" id="consultation-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row">
+            <label for="city">City</label>
+            <input id="city" name="city" type="text" autocomplete="address-level2" required>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row">
+            <label for="services">Services interested in</label>
+            <select id="services" name="services" required>
+              <option value="">Select one</option>
+              <option>Smart Security</option>
+              <option>Smart Lighting</option>
+              <option>Smart Locks</option>
+              <option>Home Automation</option>
+              <option>Local/Home-Hosted Cameras</option>
+              <option>Setup & Support</option>
+              <option>Not sure yet</option>
+            </select>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Share your goals, concerns, or the areas of your home you want help with." required></textarea>
+            <small class="error-message"></small>
+          </div>
+          <button class="btn" type="submit">Request My Free Consultation</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact-card reveal" aria-label="Contact information">
+          <p class="eyebrow">Contact directly</p>
+          <h2>Snake River Smart Homes</h2>
+          <p><strong>Nicson White</strong></p>
+          <p><a href="tel:12087166271">208-716-6271</a><br><a href="mailto:01nicsonwhite@gmail.com">01nicsonwhite@gmail.com</a></p>
+          <p>Serving Idaho Falls, Rexburg, and surrounding Southeast Idaho cities.</p>
+          <div class="contact-highlights">
+            <span>Free consultation</span>
+            <span>Custom recommendations</span>
+            <span>Security-first planning</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container narrow">
+        <div class="section-heading reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>Quick answers before you reach out.</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item reveal"><button type="button" class="faq-question">Do you list package prices online?<span>+</span></button><div class="faq-answer"><p>No. Packages are custom-built after a consultation so recommendations match the home, goals, and budget.</p></div></div>
+          <div class="faq-item reveal"><button type="button" class="faq-question">Can you work within my budget?<span>+</span></button><div class="faq-answer"><p>Yes. Plans can be shaped as best, budget, or phased options depending on what fits.</p></div></div>
+          <div class="faq-item reveal"><button type="button" class="faq-question">Do I need to already own smart home devices?<span>+</span></button><div class="faq-answer"><p>No. You can start from scratch, use devices you already own, or get help deciding what to buy.</p></div></div>
+          <div class="faq-item reveal"><button type="button" class="faq-question">Can you help me choose the right products?<span>+</span></button><div class="faq-answer"><p>Yes. Product choices are based on your priorities, privacy preferences, and the way your household uses technology.</p></div></div>
+          <div class="faq-item reveal"><button type="button" class="faq-question">Do you offer phased installs?<span>+</span></button><div class="faq-answer"><p>Yes. Phased installs help you start with the most important upgrades and expand later.</p></div></div>
+          <div class="faq-item reveal"><button type="button" class="faq-question">What areas do you serve?<span>+</span></button><div class="faq-answer"><p>Idaho Falls, Rexburg, and surrounding Southeast Idaho cities.</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><img src="assets/logo-horizontal.png" alt="Snake River Smart Homes logo" class="footer-logo"><p>Smart home and security solutions for Southeast Idaho homeowners.</p></div>
+      <div><h2>Contact</h2><p>Nicson White<br><a href="tel:12087166271">208-716-6271</a><br><a href="mailto:01nicsonwhite@gmail.com">01nicsonwhite@gmail.com</a></p></div>
+      <div><h2>Explore</h2><p><a href="index.html">Home</a><br><a href="packages.html">What We Do</a><br><a href="about.html">About Us</a></p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
